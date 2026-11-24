@@ -1,0 +1,10 @@
+node_modules/
+src/languages/messages/
+src/languages/paragraphs/*
+!src/languages/paragraphs/.gitkeep
+src/languages/api.json
+src/languages/translates/*/*.bak.*.json
+dist/
+.env.local
+.env.*.local
+*.log

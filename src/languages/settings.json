@@ -1,0 +1,28 @@
+{
+  "languages": [
+    {
+      "name": "zh-CN",
+      "title": "简体中文",
+      "nativeTitle": "简体中文",
+      "default": true,
+      "active": true
+    },
+    {
+      "name": "en-US",
+      "title": "English",
+      "nativeTitle": "English"
+    },
+    {
+      "name": "pt-PT",
+      "title": "Português",
+      "nativeTitle": "Português"
+    }
+  ],
+  "patterns": [
+    "src/**/*.{js,vue}",
+    "!src/languages/**"
+  ],
+  "debug": false,
+  "typescript": false,
+  "moduleType": "esm"
+}
