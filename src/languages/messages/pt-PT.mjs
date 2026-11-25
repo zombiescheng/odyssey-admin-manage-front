@@ -68,7 +68,6 @@ export default  {
     "67": "Administrador de demonstração",
     "68": "Auditor de demonstração",
     "69": "Gestão do sistema",
-    "70": "Registos de operações",
     "71": "Hora da operação",
     "72": "até",
     "73": "Hora de início",
@@ -105,5 +104,6 @@ export default  {
     "104": "Ativados",
     "105": "Por ativar",
     "106": "Montante",
-    "242": "Testar a internacionalização"
+    "242": "Testar a internacionalização",
+    "245": "Script de teste"
 }

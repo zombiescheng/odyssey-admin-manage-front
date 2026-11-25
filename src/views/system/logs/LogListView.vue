@@ -116,7 +116,6 @@ onMounted(search)
 
 <template>
   <section>
-    <header class="page-heading"><h1>{{ t('操作日志') }}</h1></header>
     <div class="panel">
       {{ t("测试国际化") }}
       {{ t("测试脚本") }}

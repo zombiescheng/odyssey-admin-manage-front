@@ -68,7 +68,6 @@ export default  {
     "67": "Demo administrator",
     "68": "Demo auditor",
     "69": "System management",
-    "70": "Operation logs",
     "71": "Operation time",
     "72": "to",
     "73": "Start time",
@@ -82,7 +81,7 @@ export default  {
     "81": "Success",
     "82": "Failed",
     "83": "IP address",
-    "84": "Actions",
+    "84": "more",
     "85": "Operation log details",
     "86": "Service",
     "87": "Method",
@@ -105,5 +104,6 @@ export default  {
     "104": "Activated",
     "105": "Not activated",
     "106": "Amount",
-    "242": "Test internationalization"
+    "242": "Test internationalization",
+    "245": "Test Script"
 }

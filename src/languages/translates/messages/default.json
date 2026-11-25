@@ -175,14 +175,9 @@
         "$id": 23
     },
     "操作": {
-        "en-US": "Actions",
+        "en-US": "more",
         "pt-PT": "Ações",
         "$id": 84
-    },
-    "操作日志": {
-        "en-US": "Operation logs",
-        "pt-PT": "Registos de operações",
-        "$id": 70
     },
     "操作日志详情": {
         "en-US": "Operation log details",
@@ -283,6 +278,11 @@
         "en-US": "Test internationalization",
         "pt-PT": "Testar a internacionalização",
         "$id": 242
+    },
+    "测试脚本": {
+        "en-US": "Test Script",
+        "pt-PT": "Script de teste",
+        "$id": 245
     },
     "演示审计员": {
         "en-US": "Demo auditor",
