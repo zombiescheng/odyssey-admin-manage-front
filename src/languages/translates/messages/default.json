@@ -1,878 +1,537 @@
 {
-    "管理后台": {
-        "en-US": "Management console",
-        "pt-PT": "Consola de gestão",
-        "$files": [
-            "src/App.vue(844-852)",
-            "src/layouts/WorkspaceLayout.vue(2413-2421)",
-            "src/views/auth/login/LoginView.vue(3870-3878)"
-        ],
-        "$id": 1
+    "6 位验证码": {
+        "en-US": "6-digit verification code",
+        "pt-PT": "Código de verificação de 6 dígitos",
+        "$id": 28
     },
-    "正在加载管理后台…": {
-        "en-US": "Loading the management console…",
-        "pt-PT": "A carregar a consola de gestão…",
-        "$files": [
-            "src/App.vue(1070-1083)"
-        ],
-        "$id": 2
-    },
-    "语言": {
-        "en-US": "Language",
-        "pt-PT": "Idioma",
-        "$files": [
-            "src/components/LanguageSwitcher.vue(633-639)"
-        ],
-        "$id": 3
-    },
-    "切换语言失败，请重试。": {
-        "en-US": "Could not change the language. Try again.",
-        "pt-PT": "Não foi possível mudar o idioma. Tente novamente.",
-        "$files": [
-            "src/components/LanguageSwitcher.vue(923-938)"
-        ],
-        "$id": 4
+    "IP 地址": {
+        "en-US": "IP address",
+        "pt-PT": "Endereço IP",
+        "$id": 83
     },
     "业务导航": {
         "en-US": "Business navigation",
         "pt-PT": "Navegação de áreas",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(1509-1517)"
-        ],
         "$id": 55
     },
-    "工作台": {
-        "en-US": "Workspace",
-        "pt-PT": "Área de trabalho",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(1599-1606)",
-            "src/views/workspace/EntryView.vue(167-174)"
-        ],
-        "$id": 54
+    "产品名称": {
+        "en-US": "Product name",
+        "pt-PT": "Nome do produto",
+        "$id": 101
     },
-    "菜单": {
-        "en-US": "Menu",
-        "pt-PT": "Menu",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(2332-2338)"
-        ],
-        "$id": 56
-    },
-    "本地演示": {
-        "en-US": "Local demo",
-        "pt-PT": "Demonstração local",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(2690-2698)",
-            "src/views/auth/login/LoginView.vue(7052-7060)"
-        ],
-        "$id": 57
-    },
-    "演示管理员": {
-        "en-US": "Demo administrator",
-        "pt-PT": "Administrador de demonstração",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(2811-2820)"
-        ],
-        "$id": 67
-    },
-    "演示审计员": {
-        "en-US": "Demo auditor",
-        "pt-PT": "Auditor de demonstração",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(2824-2833)"
-        ],
-        "$id": 68
-    },
-    "退出": {
-        "en-US": "Sign out",
-        "pt-PT": "Terminar sessão",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(2939-2945)"
-        ],
-        "$id": 58
-    },
-    "已打开页面": {
-        "en-US": "Open pages",
-        "pt-PT": "Páginas abertas",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(3057-3066)"
-        ],
-        "$id": 59
-    },
-    "关闭{title}": {
-        "en-US": "Close {title}",
-        "pt-PT": "Fechar {title}",
-        "$files": [
-            "src/layouts/WorkspaceLayout.vue(3362-3375)"
-        ],
-        "$id": 60
-    },
-    "暂时无法恢复会话，请重新登录。": {
-        "en-US": "The session could not be restored. Sign in again.",
-        "pt-PT": "Não foi possível restaurar a sessão. Inicie sessão novamente.",
-        "$files": [
-            "src/stores/session.js(2561-2580)"
-        ],
-        "$id": 11
-    },
-    "请重新登录后验证。": {
-        "en-US": "Sign in again before verifying.",
-        "pt-PT": "Inicie sessão novamente antes de verificar.",
-        "$files": [
-            "src/stores/session.js(2981-2994)"
-        ],
-        "$id": 44
-    },
-    "已退出本地会话，服务器退出请求未完成。": {
-        "en-US": "Signed out locally. The server sign-out request did not complete.",
-        "pt-PT": "Terminou a sessão localmente. O pedido ao servidor não foi concluído.",
-        "$files": [
-            "src/stores/session.js(3315-3338)"
-        ],
-        "$id": 12
-    },
-    "会话已过期，请重新登录。": {
-        "en-US": "Your session has expired. Sign in again.",
-        "pt-PT": "A sessão expirou. Inicie sessão novamente.",
-        "$files": [
-            "src/stores/session.js(3404-3420)",
-            "src/api/clients/index.js(159-175)"
-        ],
-        "$id": 10
-    },
-    "服务返回了无法处理的响应。": {
-        "en-US": "The service returned an invalid response.",
-        "pt-PT": "O serviço devolveu uma resposta inválida.",
-        "$files": [
-            "src/api/clients/index.js(1190-1207)"
-        ],
-        "$id": 14
-    },
-    "服务请求失败（HTTP {status}）。": {
-        "en-US": "The service request failed (HTTP {status}).",
-        "pt-PT": "O pedido ao serviço falhou (HTTP {status}).",
-        "$files": [
-            "src/api/clients/index.js(1511-1537)"
-        ],
-        "$id": 15
-    },
-    "请求未完成，请检查网络和网关配置。": {
-        "en-US": "The request could not be completed. Check the network and gateway configuration.",
-        "pt-PT": "O pedido não foi concluído. Verifique a configuração da rede e do gateway.",
-        "$files": [
-            "src/api/clients/index.js(1584-1605)"
-        ],
-        "$id": 16
-    },
-    "请使用下方提供的本地演示账号。": {
-        "en-US": "Use one of the local demo accounts below.",
-        "pt-PT": "Utilize uma das contas de demonstração abaixo.",
-        "$files": [
-            "src/api/demo/fixtures.js(2029-2048)"
-        ],
-        "$id": 51
-    },
-    "演示验证码有误。": {
-        "en-US": "The demo verification code is incorrect.",
-        "pt-PT": "O código de verificação de demonstração está incorreto.",
-        "$files": [
-            "src/api/demo/fixtures.js(2170-2182)"
-        ],
-        "$id": 52
-    },
-    "演示账号已完成双因子设置。": {
-        "en-US": "Two-factor authentication is already set up for the demo account.",
-        "pt-PT": "A autenticação de dois fatores já está configurada para a conta de demonstração.",
-        "$files": [
-            "src/api/demo/fixtures.js(2272-2289)",
-            "src/api/demo/fixtures.js(2340-2357)",
-            "src/api/demo/fixtures.js(2411-2428)"
-        ],
-        "$id": 53
-    },
-    "服务器未返回双因子验证会话。": {
-        "en-US": "The server did not return a two-factor authentication session.",
-        "pt-PT": "O servidor não devolveu uma sessão de autenticação de dois fatores.",
-        "$files": [
-            "src/api/auth/login/index.js(768-786)"
-        ],
-        "$id": 45
-    },
-    "服务器未返回有效的账号权限。": {
-        "en-US": "The server did not return valid account permissions.",
-        "pt-PT": "O servidor não devolveu permissões válidas para a conta.",
-        "$files": [
-            "src/api/auth/login/index.js(1405-1423)"
-        ],
-        "$id": 46
-    },
-    "登录响应缺少用户或会话信息。": {
-        "en-US": "The sign-in response is missing user or session information.",
-        "pt-PT": "A resposta de início de sessão não contém os dados do utilizador ou da sessão.",
-        "$files": [
-            "src/api/auth/login/protocol.js(195-213)"
-        ],
-        "$id": 47
-    },
-    "请配置与原系统一致的登录加密参数。": {
-        "en-US": "Configure the sign-in encryption settings to match the existing system.",
-        "pt-PT": "Configure os parâmetros de cifragem do início de sessão de acordo com o sistema existente.",
-        "$files": [
-            "src/api/auth/login/protocol.js(873-894)"
-        ],
-        "$id": 48
-    },
-    "登录需要 HTTPS 或本机开发环境。": {
-        "en-US": "Sign-in requires HTTPS or a local development environment.",
-        "pt-PT": "O início de sessão requer HTTPS ou um ambiente de desenvolvimento local.",
-        "$files": [
-            "src/api/auth/login/protocol.js(951-974)"
-        ],
-        "$id": 49
-    },
-    "未收到恢复码，请重试。": {
-        "en-US": "No recovery codes were received. Try again.",
-        "pt-PT": "Não foram recebidos códigos de recuperação. Tente novamente.",
-        "$files": [
-            "src/api/auth/login/totp.js(1305-1320)"
-        ],
-        "$id": 50
-    },
-    "当前账号没有可访问的迁移页面。": {
-        "en-US": "Your account has no access to migrated pages.",
-        "pt-PT": "A sua conta não tem acesso a páginas migradas.",
-        "$files": [
-            "src/views/workspace/EntryView.vue(584-603)"
-        ],
-        "$id": 61
-    },
-    "无权访问此页面": {
-        "en-US": "Access denied",
-        "pt-PT": "Acesso negado",
-        "$files": [
-            "src/views/workspace/StatusView.vue(189-200)"
-        ],
-        "$id": 62
-    },
-    "此页面尚未接入": {
-        "en-US": "Page unavailable",
-        "pt-PT": "Página indisponível",
-        "$files": [
-            "src/views/workspace/StatusView.vue(204-215)"
-        ],
-        "$id": 63
-    },
-    "请联系管理员为当前账号分配页面权限。": {
-        "en-US": "Contact an administrator to request access to this page.",
-        "pt-PT": "Contacte um administrador para pedir acesso a esta página.",
-        "$files": [
-            "src/views/workspace/StatusView.vue(288-310)"
-        ],
-        "$id": 64
-    },
-    "请从工作台打开本次已接入的页面。": {
-        "en-US": "Open an available page from the workspace.",
-        "pt-PT": "Abra uma página disponível na área de trabalho.",
-        "$files": [
-            "src/views/workspace/StatusView.vue(314-334)"
-        ],
-        "$id": 65
-    },
-    "返回工作台": {
-        "en-US": "Back to workspace",
-        "pt-PT": "Voltar à área de trabalho",
-        "$files": [
-            "src/views/workspace/StatusView.vue(394-403)"
-        ],
-        "$id": 66
-    },
-    "请求失败，请重试。": {
-        "en-US": "The request failed. Try again.",
-        "pt-PT": "O pedido falhou. Tente novamente.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(1477-1490)"
-        ],
-        "$id": 39
-    },
-    "请输入账号和密码。": {
-        "en-US": "Enter your account and password.",
-        "pt-PT": "Introduza a conta e a palavra-passe.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(1665-1678)"
-        ],
-        "$id": 40
-    },
-    "请输入恢复码。": {
-        "en-US": "Enter your recovery code.",
-        "pt-PT": "Introduza o código de recuperação.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(2321-2332)"
-        ],
-        "$id": 41
-    },
-    "请输入 6 位验证码。": {
-        "en-US": "Enter the 6-digit verification code.",
-        "pt-PT": "Introduza o código de verificação de 6 dígitos.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(2336-2351)"
-        ],
-        "$id": 42
-    },
-    "已开启双因子认证，请重新登录。": {
-        "en-US": "Two-factor authentication is enabled. Sign in again.",
-        "pt-PT": "A autenticação de dois fatores está ativa. Inicie sessão novamente.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(3577-3596)"
-        ],
-        "$id": 43
-    },
-    "双因子认证": {
-        "en-US": "Two-factor authentication",
-        "pt-PT": "Autenticação de dois fatores",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(3964-3973)",
-            "src/views/auth/login/LoginView.vue(4131-4140)"
-        ],
-        "$id": 20
-    },
-    "账号登录": {
-        "en-US": "Account sign-in",
-        "pt-PT": "Início de sessão",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(3977-3985)"
-        ],
-        "$id": 17
-    },
-    "设置双因子认证": {
-        "en-US": "Set up two-factor authentication",
-        "pt-PT": "Configurar autenticação de dois fatores",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(4102-4113)"
-        ],
-        "$id": 19
-    },
-    "登录": {
-        "en-US": "Sign in",
-        "pt-PT": "Iniciar sessão",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(4144-4150)",
-            "src/views/auth/login/LoginView.vue(6933-6939)"
-        ],
-        "$id": 18
-    },
-    "请妥善保存恢复码。失去认证器访问权限时，可用恢复码登录。": {
-        "en-US": "Keep your recovery codes safe. Use a code if you lose access to your authenticator.",
-        "pt-PT": "Guarde os códigos de recuperação num local seguro. Use um código se perder o acesso ao autenticador.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(4434-4466)"
-        ],
-        "$id": 21
-    },
-    "重试生成恢复码": {
-        "en-US": "Retry generating recovery codes",
-        "pt-PT": "Tentar gerar os códigos de recuperação novamente",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(4744-4755)"
-        ],
-        "$id": 22
-    },
-    "我已保存，返回登录": {
-        "en-US": "I saved my codes. Back to sign-in",
-        "pt-PT": "Guardei os códigos. Voltar ao início de sessão",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(4892-4905)"
-        ],
-        "$id": 23
-    },
-    "在认证器中添加账号，然后输入生成的验证码。": {
-        "en-US": "Add the account to your authenticator, then enter the code it generates.",
-        "pt-PT": "Adicione a conta à aplicação autenticadora e introduza o código gerado.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5080-5105)"
-        ],
-        "$id": 24
-    },
-    "认证器二维码": {
-        "en-US": "Authenticator QR code",
-        "pt-PT": "Código QR da aplicação autenticadora",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5281-5291)"
-        ],
-        "$id": 25
-    },
-    "重新加载绑定信息": {
-        "en-US": "Reload setup details",
-        "pt-PT": "Recarregar os dados de configuração",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5482-5494)"
-        ],
-        "$id": 26
-    },
-    "恢复码": {
-        "en-US": "Recovery code",
-        "pt-PT": "Código de recuperação",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5588-5595)"
-        ],
-        "$id": 27
-    },
-    "6 位验证码": {
-        "en-US": "6-digit verification code",
-        "pt-PT": "Código de verificação de 6 dígitos",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5599-5609)"
-        ],
-        "$id": 28
-    },
-    "演示验证码为 123456，恢复码为 DEMO-2026。": {
-        "en-US": "The demo verification code is 123456 and the recovery code is DEMO-2026.",
-        "pt-PT": "O código de verificação de demonstração é 123456 e o código de recuperação é DEMO-2026.",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(5856-5889)"
-        ],
-        "$id": 29
-    },
-    "确认启用": {
-        "en-US": "Enable",
-        "pt-PT": "Ativar",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6078-6086)"
-        ],
-        "$id": 30
-    },
-    "验证": {
-        "en-US": "Verify",
-        "pt-PT": "Verificar",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6090-6096)"
-        ],
-        "$id": 31
-    },
-    "返回登录": {
-        "en-US": "Back to sign-in",
-        "pt-PT": "Voltar ao início de sessão",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6217-6225)"
-        ],
-        "$id": 32
-    },
-    "使用验证码": {
-        "en-US": "Use a verification code",
-        "pt-PT": "Usar um código de verificação",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6365-6374)"
-        ],
-        "$id": 33
-    },
-    "使用恢复码": {
-        "en-US": "Use a recovery code",
-        "pt-PT": "Usar um código de recuperação",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6378-6387)"
-        ],
-        "$id": 34
-    },
-    "账号": {
-        "en-US": "Account",
-        "pt-PT": "Conta",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6533-6539)"
-        ],
-        "$id": 35
-    },
-    "密码": {
-        "en-US": "Password",
-        "pt-PT": "Palavra-passe",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(6679-6685)"
-        ],
-        "$id": 36
-    },
-    "管理员": {
-        "en-US": "Administrator",
-        "pt-PT": "Administrador",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(7185-7192)"
-        ],
-        "$id": 37
-    },
-    "审计员": {
-        "en-US": "Auditor",
-        "pt-PT": "Auditor",
-        "$files": [
-            "src/views/auth/login/LoginView.vue(7292-7299)"
-        ],
-        "$id": 38
-    },
-    "加载失败，请重试。": {
-        "en-US": "Could not load the data. Try again.",
-        "pt-PT": "Não foi possível carregar os dados. Tente novamente.",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(1792-1805)",
-            "src/views/system/logs/LogListView.vue(2020-2033)"
-        ],
-        "$id": 13
+    "产品状态": {
+        "en-US": "Product status",
+        "pt-PT": "Estado do produto",
+        "$id": 96
     },
     "产品管理": {
         "en-US": "Product management",
         "pt-PT": "Gestão de produtos",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(2801-2809)"
-        ],
         "$id": 93
     },
     "产品编号": {
         "en-US": "Product code",
         "pt-PT": "Código do produto",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(2941-2949)",
-            "src/views/instant/products/ProductListView.vue(3813-3821)"
-        ],
         "$id": 94
     },
-    "输入产品编号": {
-        "en-US": "Enter a product code",
-        "pt-PT": "Introduza o código do produto",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3014-3024)"
-        ],
-        "$id": 95
+    "会话已过期，请重新登录。": {
+        "en-US": "Your session has expired. Sign in again.",
+        "pt-PT": "A sessão expirou. Inicie sessão novamente.",
+        "$id": 10
     },
-    "产品状态": {
-        "en-US": "Product status",
-        "pt-PT": "Estado do produto",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3092-3100)"
-        ],
-        "$id": 96
+    "使用恢复码": {
+        "en-US": "Use a recovery code",
+        "pt-PT": "Usar um código de recuperação",
+        "$id": 34
     },
-    "全部状态": {
-        "en-US": "All statuses",
-        "pt-PT": "Todos os estados",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3164-3172)"
-        ],
-        "$id": 97
-    },
-    "启用": {
-        "en-US": "Active",
-        "pt-PT": "Ativo",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3217-3223)",
-            "src/views/instant/products/ProductListView.vue(5144-5150)"
-        ],
-        "$id": 98
+    "使用验证码": {
+        "en-US": "Use a verification code",
+        "pt-PT": "Usar um código de verificação",
+        "$id": 33
     },
     "停用": {
         "en-US": "Inactive",
         "pt-PT": "Inativo",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3271-3277)",
-            "src/views/instant/products/ProductListView.vue(5154-5160)"
-        ],
         "$id": 99
     },
-    "查询": {
-        "en-US": "Search",
-        "pt-PT": "Pesquisar",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3450-3456)",
-            "src/views/system/logs/LogListView.vue(4326-4332)"
-        ],
-        "$id": 5
+    "全部状态": {
+        "en-US": "All statuses",
+        "pt-PT": "Todos os estados",
+        "$id": 97
     },
-    "重置": {
-        "en-US": "Reset",
-        "pt-PT": "Repor",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3512-3518)",
-            "src/views/system/logs/LogListView.vue(4388-4394)"
-        ],
-        "$id": 6
+    "关闭{title}": {
+        "en-US": "Close {title}",
+        "pt-PT": "Fechar {title}",
+        "$id": 60
     },
-    "重试": {
-        "en-US": "Retry",
-        "pt-PT": "Tentar novamente",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3667-3673)",
-            "src/views/system/logs/LogListView.vue(4543-4549)"
-        ],
-        "$id": 7
+    "切换语言失败，请重试。": {
+        "en-US": "Could not change the language. Try again.",
+        "pt-PT": "Não foi possível mudar o idioma. Tente novamente.",
+        "$id": 4
     },
-    "暂无符合条件的产品": {
-        "en-US": "No matching products",
-        "pt-PT": "Não existem produtos correspondentes",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3756-3769)"
-        ],
-        "$id": 100
+    "加载失败，请重试。": {
+        "en-US": "Could not load the data. Try again.",
+        "pt-PT": "Não foi possível carregar os dados. Tente novamente.",
+        "$id": 13
     },
-    "产品名称": {
-        "en-US": "Product name",
-        "pt-PT": "Nome do produto",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3892-3900)"
-        ],
-        "$id": 101
+    "即开管理": {
+        "en-US": "Instant game management",
+        "pt-PT": "Gestão de jogos instantâneos",
+        "$id": 92
     },
-    "票价": {
-        "en-US": "Ticket price",
-        "pt-PT": "Preço do bilhete",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(3971-3977)"
-        ],
-        "$id": 102
+    "双因子认证": {
+        "en-US": "Two-factor authentication",
+        "pt-PT": "Autenticação de dois fatores",
+        "$id": 20
     },
-    "已加载": {
-        "en-US": "Loaded",
-        "pt-PT": "Carregados",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(4162-4169)"
-        ],
-        "$id": 103
+    "启用": {
+        "en-US": "Active",
+        "pt-PT": "Ativo",
+        "$id": 98
     },
-    "已激活": {
-        "en-US": "Activated",
-        "pt-PT": "Ativados",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(4351-4358)"
-        ],
-        "$id": 104
+    "响应数据": {
+        "en-US": "Response data",
+        "pt-PT": "Dados da resposta",
+        "$id": 91
     },
-    "未激活": {
-        "en-US": "Not activated",
-        "pt-PT": "Por ativar",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(4539-4546)"
-        ],
-        "$id": 105
-    },
-    "金额": {
-        "en-US": "Amount",
-        "pt-PT": "Montante",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(4730-4736)"
-        ],
-        "$id": 106
-    },
-    "状态": {
-        "en-US": "Status",
-        "pt-PT": "Estado",
-        "$files": [
-            "src/views/instant/products/ProductListView.vue(4929-4935)",
-            "src/views/system/logs/LogListView.vue(5133-5139)",
-            "src/views/system/logs/LogListView.vue(6204-6210)"
-        ],
-        "$id": 8
-    },
-    "操作日志": {
-        "en-US": "Operation logs",
-        "pt-PT": "Registos de operações",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3490-3498)"
-        ],
-        "$id": 70
-    },
-    "操作时间": {
-        "en-US": "Operation time",
-        "pt-PT": "Hora da operação",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3650-3658)",
-            "src/views/system/logs/LogListView.vue(3885-3893)",
-            "src/views/system/logs/LogListView.vue(4813-4821)",
-            "src/views/system/logs/LogListView.vue(6099-6107)"
-        ],
-        "$id": 71
-    },
-    "至": {
-        "en-US": "to",
-        "pt-PT": "até",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3751-3756)"
-        ],
-        "$id": 72
-    },
-    "开始时间": {
-        "en-US": "Start time",
-        "pt-PT": "Hora de início",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3791-3799)"
-        ],
-        "$id": 73
-    },
-    "结束时间": {
-        "en-US": "End time",
-        "pt-PT": "Hora de fim",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3820-3828)"
-        ],
-        "$id": 74
-    },
-    "用户": {
-        "en-US": "User",
-        "pt-PT": "Utilizador",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(3951-3957)",
-            "src/views/system/logs/LogListView.vue(4981-4987)",
-            "src/views/system/logs/LogListView.vue(6330-6336)"
-        ],
-        "$id": 75
-    },
-    "输入用户名": {
-        "en-US": "Enter a username",
-        "pt-PT": "Introduza o nome de utilizador",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(4018-4027)"
-        ],
-        "$id": 76
-    },
-    "模块": {
-        "en-US": "Module",
-        "pt-PT": "Módulo",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(4095-4101)",
-            "src/views/system/logs/LogListView.vue(5058-5064)",
-            "src/views/system/logs/LogListView.vue(6626-6632)"
-        ],
-        "$id": 77
-    },
-    "输入模块名": {
-        "en-US": "Enter a module name",
-        "pt-PT": "Introduza o nome do módulo",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(4168-4177)"
-        ],
-        "$id": 78
-    },
-    "暂无符合条件的日志": {
-        "en-US": "No matching logs",
-        "pt-PT": "Não existem registos correspondentes",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(4632-4645)"
-        ],
-        "$id": 79
-    },
-    "序号": {
-        "en-US": "No.",
-        "pt-PT": "N.º",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(4689-4695)"
-        ],
-        "$id": 80
-    },
-    "成功": {
-        "en-US": "Success",
-        "pt-PT": "Sucesso",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5335-5341)",
-            "src/views/system/logs/LogListView.vue(6248-6254)"
-        ],
-        "$id": 81
+    "在认证器中添加账号，然后输入生成的验证码。": {
+        "en-US": "Add the account to your authenticator, then enter the code it generates.",
+        "pt-PT": "Adicione a conta à aplicação autenticadora e introduza o código gerado.",
+        "$id": 24
     },
     "失败": {
         "en-US": "Failed",
         "pt-PT": "Falhou",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5345-5351)",
-            "src/views/system/logs/LogListView.vue(6258-6264)"
-        ],
         "$id": 82
     },
-    "IP 地址": {
-        "en-US": "IP address",
-        "pt-PT": "Endereço IP",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5460-5469)",
-            "src/views/system/logs/LogListView.vue(6429-6438)"
-        ],
-        "$id": 83
+    "审计员": {
+        "en-US": "Auditor",
+        "pt-PT": "Auditor",
+        "$id": 38
+    },
+    "密码": {
+        "en-US": "Password",
+        "pt-PT": "Palavra-passe",
+        "$id": 36
+    },
+    "工作台": {
+        "en-US": "Workspace",
+        "pt-PT": "Área de trabalho",
+        "$id": 54
+    },
+    "已加载": {
+        "en-US": "Loaded",
+        "pt-PT": "Carregados",
+        "$id": 103
+    },
+    "已开启双因子认证，请重新登录。": {
+        "en-US": "Two-factor authentication is enabled. Sign in again.",
+        "pt-PT": "A autenticação de dois fatores está ativa. Inicie sessão novamente.",
+        "$id": 43
+    },
+    "已打开页面": {
+        "en-US": "Open pages",
+        "pt-PT": "Páginas abertas",
+        "$id": 59
+    },
+    "已激活": {
+        "en-US": "Activated",
+        "pt-PT": "Ativados",
+        "$id": 104
+    },
+    "已退出本地会话，服务器退出请求未完成。": {
+        "en-US": "Signed out locally. The server sign-out request did not complete.",
+        "pt-PT": "Terminou a sessão localmente. O pedido ao servidor não foi concluído.",
+        "$id": 12
+    },
+    "序号": {
+        "en-US": "No.",
+        "pt-PT": "N.º",
+        "$id": 80
+    },
+    "开始时间": {
+        "en-US": "Start time",
+        "pt-PT": "Hora de início",
+        "$id": 73
+    },
+    "当前账号没有可访问的迁移页面。": {
+        "en-US": "Your account has no access to migrated pages.",
+        "pt-PT": "A sua conta não tem acesso a páginas migradas.",
+        "$id": 61
+    },
+    "恢复码": {
+        "en-US": "Recovery code",
+        "pt-PT": "Código de recuperação",
+        "$id": 27
+    },
+    "成功": {
+        "en-US": "Success",
+        "pt-PT": "Sucesso",
+        "$id": 81
+    },
+    "我已保存，返回登录": {
+        "en-US": "I saved my codes. Back to sign-in",
+        "pt-PT": "Guardei os códigos. Voltar ao início de sessão",
+        "$id": 23
     },
     "操作": {
         "en-US": "Actions",
         "pt-PT": "Ações",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5534-5540)"
-        ],
         "$id": 84
     },
-    "详情": {
-        "en-US": "Details",
-        "pt-PT": "Detalhes",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5653-5659)"
-        ],
-        "$id": 9
+    "操作日志": {
+        "en-US": "Operation logs",
+        "pt-PT": "Registos de operações",
+        "$id": 70
     },
     "操作日志详情": {
         "en-US": "Operation log details",
         "pt-PT": "Detalhes do registo de operação",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(5948-5958)"
-        ],
         "$id": 85
     },
-    "服务": {
-        "en-US": "Service",
-        "pt-PT": "Serviço",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(6525-6531)"
-        ],
-        "$id": 86
+    "操作时间": {
+        "en-US": "Operation time",
+        "pt-PT": "Hora da operação",
+        "$id": 71
     },
     "方法": {
         "en-US": "Method",
         "pt-PT": "Método",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(6723-6729)"
-        ],
         "$id": 87
+    },
+    "无权访问此页面": {
+        "en-US": "Access denied",
+        "pt-PT": "Acesso negado",
+        "$id": 62
+    },
+    "暂无符合条件的产品": {
+        "en-US": "No matching products",
+        "pt-PT": "Não existem produtos correspondentes",
+        "$id": 100
+    },
+    "暂无符合条件的日志": {
+        "en-US": "No matching logs",
+        "pt-PT": "Não existem registos correspondentes",
+        "$id": 79
+    },
+    "暂时无法恢复会话，请重新登录。": {
+        "en-US": "The session could not be restored. Sign in again.",
+        "pt-PT": "Não foi possível restaurar a sessão. Inicie sessão novamente.",
+        "$id": 11
+    },
+    "服务": {
+        "en-US": "Service",
+        "pt-PT": "Serviço",
+        "$id": 86
+    },
+    "服务器未返回双因子验证会话。": {
+        "en-US": "The server did not return a two-factor authentication session.",
+        "pt-PT": "O servidor não devolveu uma sessão de autenticação de dois fatores.",
+        "$id": 45
+    },
+    "服务器未返回有效的账号权限。": {
+        "en-US": "The server did not return valid account permissions.",
+        "pt-PT": "O servidor não devolveu permissões válidas para a conta.",
+        "$id": 46
+    },
+    "服务请求失败（HTTP {status}）。": {
+        "en-US": "The service request failed (HTTP {status}).",
+        "pt-PT": "O pedido ao serviço falhou (HTTP {status}).",
+        "$id": 15
+    },
+    "服务返回了无法处理的响应。": {
+        "en-US": "The service returned an invalid response.",
+        "pt-PT": "O serviço devolveu uma resposta inválida.",
+        "$id": 14
+    },
+    "未收到恢复码，请重试。": {
+        "en-US": "No recovery codes were received. Try again.",
+        "pt-PT": "Não foram recebidos códigos de recuperação. Tente novamente.",
+        "$id": 50
+    },
+    "未激活": {
+        "en-US": "Not activated",
+        "pt-PT": "Por ativar",
+        "$id": 105
+    },
+    "本地演示": {
+        "en-US": "Local demo",
+        "pt-PT": "Demonstração local",
+        "$id": 57
+    },
+    "查询": {
+        "en-US": "Search",
+        "pt-PT": "Pesquisar",
+        "$id": 5
+    },
+    "模块": {
+        "en-US": "Module",
+        "pt-PT": "Módulo",
+        "$id": 77
+    },
+    "正在加载管理后台…": {
+        "en-US": "Loading the management console…",
+        "pt-PT": "A carregar a consola de gestão…",
+        "$id": 2
+    },
+    "此页面尚未接入": {
+        "en-US": "Page unavailable",
+        "pt-PT": "Página indisponível",
+        "$id": 63
+    },
+    "测试国际化": {
+        "en-US": "Test internationalization",
+        "pt-PT": "Testar a internacionalização",
+        "$id": 242
+    },
+    "演示审计员": {
+        "en-US": "Demo auditor",
+        "pt-PT": "Auditor de demonstração",
+        "$id": 68
+    },
+    "演示管理员": {
+        "en-US": "Demo administrator",
+        "pt-PT": "Administrador de demonstração",
+        "$id": 67
+    },
+    "演示账号已完成双因子设置。": {
+        "en-US": "Two-factor authentication is already set up for the demo account.",
+        "pt-PT": "A autenticação de dois fatores já está configurada para a conta de demonstração.",
+        "$id": 53
+    },
+    "演示验证码为 123456，恢复码为 DEMO-2026。": {
+        "en-US": "The demo verification code is 123456 and the recovery code is DEMO-2026.",
+        "pt-PT": "O código de verificação de demonstração é 123456 e o código de recuperação é DEMO-2026.",
+        "$id": 29
+    },
+    "演示验证码有误。": {
+        "en-US": "The demo verification code is incorrect.",
+        "pt-PT": "O código de verificação de demonstração está incorreto.",
+        "$id": 52
+    },
+    "状态": {
+        "en-US": "Status",
+        "pt-PT": "Estado",
+        "$id": 8
+    },
+    "用户": {
+        "en-US": "User",
+        "pt-PT": "Utilizador",
+        "$id": 75
+    },
+    "登录": {
+        "en-US": "Sign in",
+        "pt-PT": "Iniciar sessão",
+        "$id": 18
+    },
+    "登录响应缺少用户或会话信息。": {
+        "en-US": "The sign-in response is missing user or session information.",
+        "pt-PT": "A resposta de início de sessão não contém os dados do utilizador ou da sessão.",
+        "$id": 47
+    },
+    "登录需要 HTTPS 或本机开发环境。": {
+        "en-US": "Sign-in requires HTTPS or a local development environment.",
+        "pt-PT": "O início de sessão requer HTTPS ou um ambiente de desenvolvimento local.",
+        "$id": 49
+    },
+    "确认启用": {
+        "en-US": "Enable",
+        "pt-PT": "Ativar",
+        "$id": 30
+    },
+    "票价": {
+        "en-US": "Ticket price",
+        "pt-PT": "Preço do bilhete",
+        "$id": 102
+    },
+    "管理后台": {
+        "en-US": "Management console",
+        "pt-PT": "Consola de gestão",
+        "$id": 1
+    },
+    "管理员": {
+        "en-US": "Administrator",
+        "pt-PT": "Administrador",
+        "$id": 37
+    },
+    "系统管理": {
+        "en-US": "System management",
+        "pt-PT": "Gestão do sistema",
+        "$id": 69
+    },
+    "结束时间": {
+        "en-US": "End time",
+        "pt-PT": "Hora de fim",
+        "$id": 74
     },
     "耗时": {
         "en-US": "Duration",
         "pt-PT": "Duração",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(6820-6826)"
-        ],
         "$id": 88
+    },
+    "至": {
+        "en-US": "to",
+        "pt-PT": "até",
+        "$id": 72
+    },
+    "菜单": {
+        "en-US": "Menu",
+        "pt-PT": "Menu",
+        "$id": 56
+    },
+    "认证器二维码": {
+        "en-US": "Authenticator QR code",
+        "pt-PT": "Código QR da aplicação autenticadora",
+        "$id": 25
+    },
+    "设置双因子认证": {
+        "en-US": "Set up two-factor authentication",
+        "pt-PT": "Configurar autenticação de dois fatores",
+        "$id": 19
+    },
+    "详情": {
+        "en-US": "Details",
+        "pt-PT": "Detalhes",
+        "$id": 9
+    },
+    "语言": {
+        "en-US": "Language",
+        "pt-PT": "Idioma",
+        "$id": 3
+    },
+    "请从工作台打开本次已接入的页面。": {
+        "en-US": "Open an available page from the workspace.",
+        "pt-PT": "Abra uma página disponível na área de trabalho.",
+        "$id": 65
+    },
+    "请使用下方提供的本地演示账号。": {
+        "en-US": "Use one of the local demo accounts below.",
+        "pt-PT": "Utilize uma das contas de demonstração abaixo.",
+        "$id": 51
+    },
+    "请妥善保存恢复码。失去认证器访问权限时，可用恢复码登录。": {
+        "en-US": "Keep your recovery codes safe. Use a code if you lose access to your authenticator.",
+        "pt-PT": "Guarde os códigos de recuperação num local seguro. Use um código se perder o acesso ao autenticador.",
+        "$id": 21
     },
     "请求": {
         "en-US": "Request",
         "pt-PT": "Pedido",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(6957-6963)"
-        ],
         "$id": 89
     },
     "请求参数": {
         "en-US": "Request parameters",
         "pt-PT": "Parâmetros do pedido",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(7120-7128)"
-        ],
         "$id": 90
     },
-    "响应数据": {
-        "en-US": "Response data",
-        "pt-PT": "Dados da resposta",
-        "$files": [
-            "src/views/system/logs/LogListView.vue(7238-7246)"
-        ],
-        "$id": 91
+    "请求失败，请重试。": {
+        "en-US": "The request failed. Try again.",
+        "pt-PT": "O pedido falhou. Tente novamente.",
+        "$id": 39
     },
-    "系统管理": {
-        "en-US": "System management",
-        "pt-PT": "Gestão do sistema",
-        "$files": [
-            "src/router/routes/system/logs/index.js(281-289)"
-        ],
-        "$id": 69
+    "请求未完成，请检查网络和网关配置。": {
+        "en-US": "The request could not be completed. Check the network and gateway configuration.",
+        "pt-PT": "O pedido não foi concluído. Verifique a configuração da rede e do gateway.",
+        "$id": 16
     },
-    "即开管理": {
-        "en-US": "Instant game management",
-        "pt-PT": "Gestão de jogos instantâneos",
-        "$files": [
-            "src/router/routes/instant/products/index.js(304-312)"
-        ],
-        "$id": 92
+    "请联系管理员为当前账号分配页面权限。": {
+        "en-US": "Contact an administrator to request access to this page.",
+        "pt-PT": "Contacte um administrador para pedir acesso a esta página.",
+        "$id": 64
+    },
+    "请输入 6 位验证码。": {
+        "en-US": "Enter the 6-digit verification code.",
+        "pt-PT": "Introduza o código de verificação de 6 dígitos.",
+        "$id": 42
+    },
+    "请输入恢复码。": {
+        "en-US": "Enter your recovery code.",
+        "pt-PT": "Introduza o código de recuperação.",
+        "$id": 41
+    },
+    "请输入账号和密码。": {
+        "en-US": "Enter your account and password.",
+        "pt-PT": "Introduza a conta e a palavra-passe.",
+        "$id": 40
+    },
+    "请配置与原系统一致的登录加密参数。": {
+        "en-US": "Configure the sign-in encryption settings to match the existing system.",
+        "pt-PT": "Configure os parâmetros de cifragem do início de sessão de acordo com o sistema existente.",
+        "$id": 48
+    },
+    "请重新登录后验证。": {
+        "en-US": "Sign in again before verifying.",
+        "pt-PT": "Inicie sessão novamente antes de verificar.",
+        "$id": 44
+    },
+    "账号": {
+        "en-US": "Account",
+        "pt-PT": "Conta",
+        "$id": 35
+    },
+    "账号登录": {
+        "en-US": "Account sign-in",
+        "pt-PT": "Início de sessão",
+        "$id": 17
+    },
+    "输入产品编号": {
+        "en-US": "Enter a product code",
+        "pt-PT": "Introduza o código do produto",
+        "$id": 95
+    },
+    "输入模块名": {
+        "en-US": "Enter a module name",
+        "pt-PT": "Introduza o nome do módulo",
+        "$id": 78
+    },
+    "输入用户名": {
+        "en-US": "Enter a username",
+        "pt-PT": "Introduza o nome de utilizador",
+        "$id": 76
+    },
+    "返回工作台": {
+        "en-US": "Back to workspace",
+        "pt-PT": "Voltar à área de trabalho",
+        "$id": 66
+    },
+    "返回登录": {
+        "en-US": "Back to sign-in",
+        "pt-PT": "Voltar ao início de sessão",
+        "$id": 32
+    },
+    "退出": {
+        "en-US": "Sign out",
+        "pt-PT": "Terminar sessão",
+        "$id": 58
+    },
+    "重新加载绑定信息": {
+        "en-US": "Reload setup details",
+        "pt-PT": "Recarregar os dados de configuração",
+        "$id": 26
+    },
+    "重置": {
+        "en-US": "Reset",
+        "pt-PT": "Repor",
+        "$id": 6
+    },
+    "重试": {
+        "en-US": "Retry",
+        "pt-PT": "Tentar novamente",
+        "$id": 7
+    },
+    "重试生成恢复码": {
+        "en-US": "Retry generating recovery codes",
+        "pt-PT": "Tentar gerar os códigos de recuperação novamente",
+        "$id": 22
+    },
+    "金额": {
+        "en-US": "Amount",
+        "pt-PT": "Montante",
+        "$id": 106
+    },
+    "验证": {
+        "en-US": "Verify",
+        "pt-PT": "Verificar",
+        "$id": 31
     }
 }

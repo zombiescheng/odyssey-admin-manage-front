@@ -105,5 +105,5 @@ export default  {
     "104": "Activated",
     "105": "Not activated",
     "106": "Amount",
-    "242": "测试国际化"
+    "242": "Test internationalization"
 }

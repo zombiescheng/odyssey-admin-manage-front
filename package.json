@@ -8,6 +8,8 @@
   },
   "scripts": {
     "i18n:extract": "voerkai18n extract",
+    "posti18n:extract": "npm run i18n:normalize",
+    "i18n:normalize": "node scripts/normalize-i18n-dictionary.mjs",
     "i18n:compile": "voerkai18n compile",
     "predev": "npm run i18n:compile",
     "dev": "vite",
@@ -18,7 +20,7 @@
     "preview": "vite preview",
     "pretest": "npm run i18n:compile",
     "test": "node --test tests/*.test.mjs",
-    "translate": "voerkai18n extract && voerkai18n translate --api chatgpt && voerkai18n compile",
+    "translate": "npm run i18n:extract && voerkai18n translate --api chatgpt && npm run i18n:normalize && npm run i18n:compile",
     "compile": "voerkai18n compile"
   },
   "dependencies": {
