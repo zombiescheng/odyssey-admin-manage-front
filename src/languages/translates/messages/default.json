@@ -39,6 +39,11 @@
         "pt-PT": "A sessão expirou. Inicie sessão novamente.",
         "$id": 10
     },
+    "你好，世界！": {
+        "en-US": "Hello， world！",
+        "pt-PT": "Olá，mundo！",
+        "$id": 247
+    },
     "使用恢复码": {
         "en-US": "Use a recovery code",
         "pt-PT": "Usar um código de recuperação",
@@ -280,9 +285,15 @@
         "$id": 242
     },
     "测试脚本": {
+<<<<<<< HEAD
         "en-US": "Test Script",
         "pt-PT": "Script de teste",
         "$id": 245
+=======
+        "en-US": "Test script",
+        "pt-PT": "Script de teste",
+        "$id": 246
+>>>>>>> 6c5750805116288b6a1b3e5247ca4a81a891e09b
     },
     "演示审计员": {
         "en-US": "Demo auditor",
@@ -315,7 +326,7 @@
         "$id": 8
     },
     "用户": {
-        "en-US": "User",
+        "en-US": "User1",
         "pt-PT": "Utilizador",
         "$id": 75
     },

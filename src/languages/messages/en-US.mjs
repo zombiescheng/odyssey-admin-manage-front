@@ -72,7 +72,7 @@ export default  {
     "72": "to",
     "73": "Start time",
     "74": "End time",
-    "75": "User",
+    "75": "User1",
     "76": "Enter a username",
     "77": "Module",
     "78": "Enter a module name",
@@ -105,5 +105,10 @@ export default  {
     "105": "Not activated",
     "106": "Amount",
     "242": "Test internationalization",
+<<<<<<< HEAD
     "245": "Test Script"
+=======
+    "246": "Test script",
+    "247": "Hello， world！"
+>>>>>>> 6c5750805116288b6a1b3e5247ca4a81a891e09b
 }

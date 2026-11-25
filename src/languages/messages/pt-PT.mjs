@@ -105,5 +105,10 @@ export default  {
     "105": "Por ativar",
     "106": "Montante",
     "242": "Testar a internacionalização",
+<<<<<<< HEAD
     "245": "Script de teste"
+=======
+    "246": "Script de teste",
+    "247": "Olá，mundo！"
+>>>>>>> 6c5750805116288b6a1b3e5247ca4a81a891e09b
 }
