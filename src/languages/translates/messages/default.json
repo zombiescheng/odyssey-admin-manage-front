@@ -3,9 +3,9 @@
         "en-US": "Management console",
         "pt-PT": "Consola de gestão",
         "$files": [
-            "src/App.vue(844-852)",
-            "src/layouts/WorkspaceLayout.vue(2413-2421)",
-            "src/views/auth/login/LoginView.vue(3870-3878)"
+            "src/App.vue(863-871)",
+            "src/layouts/WorkspaceLayout.vue(2468-2476)",
+            "src/views/auth/login/LoginView.vue(3991-3999)"
         ],
         "$id": 1
     },
@@ -13,7 +13,7 @@
         "en-US": "Loading the management console…",
         "pt-PT": "A carregar a consola de gestão…",
         "$files": [
-            "src/App.vue(1070-1083)"
+            "src/App.vue(1097-1110)"
         ],
         "$id": 2
     },
@@ -21,7 +21,7 @@
         "en-US": "Language",
         "pt-PT": "Idioma",
         "$files": [
-            "src/components/LanguageSwitcher.vue(633-639)"
+            "src/components/LanguageSwitcher.vue(659-665)"
         ],
         "$id": 3
     },
@@ -29,7 +29,7 @@
         "en-US": "Could not change the language. Try again.",
         "pt-PT": "Não foi possível mudar o idioma. Tente novamente.",
         "$files": [
-            "src/components/LanguageSwitcher.vue(923-938)"
+            "src/components/LanguageSwitcher.vue(954-969)"
         ],
         "$id": 4
     },
@@ -37,7 +37,7 @@
         "en-US": "Business navigation",
         "pt-PT": "Navegação de áreas",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(1509-1517)"
+            "src/layouts/WorkspaceLayout.vue(1549-1557)"
         ],
         "$id": 55
     },
@@ -45,8 +45,8 @@
         "en-US": "Workspace",
         "pt-PT": "Área de trabalho",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(1599-1606)",
-            "src/views/workspace/EntryView.vue(167-174)"
+            "src/layouts/WorkspaceLayout.vue(1640-1647)",
+            "src/views/workspace/EntryView.vue(174-181)"
         ],
         "$id": 54
     },
@@ -54,7 +54,7 @@
         "en-US": "Menu",
         "pt-PT": "Menu",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(2332-2338)"
+            "src/layouts/WorkspaceLayout.vue(2386-2392)"
         ],
         "$id": 56
     },
@@ -62,8 +62,8 @@
         "en-US": "Local demo",
         "pt-PT": "Demonstração local",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(2690-2698)",
-            "src/views/auth/login/LoginView.vue(7052-7060)"
+            "src/layouts/WorkspaceLayout.vue(2750-2758)",
+            "src/views/auth/login/LoginView.vue(7220-7228)"
         ],
         "$id": 57
     },
@@ -71,7 +71,7 @@
         "en-US": "Demo administrator",
         "pt-PT": "Administrador de demonstração",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(2811-2820)"
+            "src/layouts/WorkspaceLayout.vue(2872-2881)"
         ],
         "$id": 67
     },
@@ -79,7 +79,7 @@
         "en-US": "Demo auditor",
         "pt-PT": "Auditor de demonstração",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(2824-2833)"
+            "src/layouts/WorkspaceLayout.vue(2885-2894)"
         ],
         "$id": 68
     },
@@ -87,7 +87,7 @@
         "en-US": "Sign out",
         "pt-PT": "Terminar sessão",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(2939-2945)"
+            "src/layouts/WorkspaceLayout.vue(3001-3007)"
         ],
         "$id": 58
     },
@@ -95,7 +95,7 @@
         "en-US": "Open pages",
         "pt-PT": "Páginas abertas",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(3057-3066)"
+            "src/layouts/WorkspaceLayout.vue(3122-3131)"
         ],
         "$id": 59
     },
@@ -103,7 +103,7 @@
         "en-US": "Close {title}",
         "pt-PT": "Fechar {title}",
         "$files": [
-            "src/layouts/WorkspaceLayout.vue(3362-3375)"
+            "src/layouts/WorkspaceLayout.vue(3430-3443)"
         ],
         "$id": 60
     },
@@ -111,7 +111,7 @@
         "en-US": "The session could not be restored. Sign in again.",
         "pt-PT": "Não foi possível restaurar a sessão. Inicie sessão novamente.",
         "$files": [
-            "src/stores/session.js(2561-2580)"
+            "src/stores/session.js(2633-2652)"
         ],
         "$id": 11
     },
@@ -119,7 +119,7 @@
         "en-US": "Sign in again before verifying.",
         "pt-PT": "Inicie sessão novamente antes de verificar.",
         "$files": [
-            "src/stores/session.js(2981-2994)"
+            "src/stores/session.js(3067-3080)"
         ],
         "$id": 44
     },
@@ -127,7 +127,7 @@
         "en-US": "Signed out locally. The server sign-out request did not complete.",
         "pt-PT": "Terminou a sessão localmente. O pedido ao servidor não foi concluído.",
         "$files": [
-            "src/stores/session.js(3315-3338)"
+            "src/stores/session.js(3412-3435)"
         ],
         "$id": 12
     },
@@ -135,40 +135,16 @@
         "en-US": "Your session has expired. Sign in again.",
         "pt-PT": "A sessão expirou. Inicie sessão novamente.",
         "$files": [
-            "src/stores/session.js(3404-3420)",
-            "src/api/clients/index.js(159-175)"
+            "src/stores/session.js(3507-3523)",
+            "src/api/clients/index.js(164-180)"
         ],
         "$id": 10
-    },
-    "服务返回了无法处理的响应。": {
-        "en-US": "The service returned an invalid response.",
-        "pt-PT": "O serviço devolveu uma resposta inválida.",
-        "$files": [
-            "src/api/clients/index.js(1190-1207)"
-        ],
-        "$id": 14
-    },
-    "服务请求失败（HTTP {status}）。": {
-        "en-US": "The service request failed (HTTP {status}).",
-        "pt-PT": "O pedido ao serviço falhou (HTTP {status}).",
-        "$files": [
-            "src/api/clients/index.js(1511-1537)"
-        ],
-        "$id": 15
-    },
-    "请求未完成，请检查网络和网关配置。": {
-        "en-US": "The request could not be completed. Check the network and gateway configuration.",
-        "pt-PT": "O pedido não foi concluído. Verifique a configuração da rede e do gateway.",
-        "$files": [
-            "src/api/clients/index.js(1584-1605)"
-        ],
-        "$id": 16
     },
     "请使用下方提供的本地演示账号。": {
         "en-US": "Use one of the local demo accounts below.",
         "pt-PT": "Utilize uma das contas de demonstração abaixo.",
         "$files": [
-            "src/api/demo/fixtures.js(2029-2048)"
+            "src/api/demo/fixtures.js(2063-2082)"
         ],
         "$id": 51
     },
@@ -176,7 +152,7 @@
         "en-US": "The demo verification code is incorrect.",
         "pt-PT": "O código de verificação de demonstração está incorreto.",
         "$files": [
-            "src/api/demo/fixtures.js(2170-2182)"
+            "src/api/demo/fixtures.js(2207-2219)"
         ],
         "$id": 52
     },
@@ -184,17 +160,41 @@
         "en-US": "Two-factor authentication is already set up for the demo account.",
         "pt-PT": "A autenticação de dois fatores já está configurada para a conta de demonstração.",
         "$files": [
-            "src/api/demo/fixtures.js(2272-2289)",
-            "src/api/demo/fixtures.js(2340-2357)",
-            "src/api/demo/fixtures.js(2411-2428)"
+            "src/api/demo/fixtures.js(2313-2330)",
+            "src/api/demo/fixtures.js(2384-2401)",
+            "src/api/demo/fixtures.js(2458-2475)"
         ],
         "$id": 53
+    },
+    "服务返回了无法处理的响应。": {
+        "en-US": "The service returned an invalid response.",
+        "pt-PT": "O serviço devolveu uma resposta inválida.",
+        "$files": [
+            "src/api/clients/index.js(1221-1238)"
+        ],
+        "$id": 14
+    },
+    "服务请求失败（HTTP {status}）。": {
+        "en-US": "The service request failed (HTTP {status}).",
+        "pt-PT": "O pedido ao serviço falhou (HTTP {status}).",
+        "$files": [
+            "src/api/clients/index.js(1550-1576)"
+        ],
+        "$id": 15
+    },
+    "请求未完成，请检查网络和网关配置。": {
+        "en-US": "The request could not be completed. Check the network and gateway configuration.",
+        "pt-PT": "O pedido não foi concluído. Verifique a configuração da rede e do gateway.",
+        "$files": [
+            "src/api/clients/index.js(1624-1645)"
+        ],
+        "$id": 16
     },
     "服务器未返回双因子验证会话。": {
         "en-US": "The server did not return a two-factor authentication session.",
         "pt-PT": "O servidor não devolveu uma sessão de autenticação de dois fatores.",
         "$files": [
-            "src/api/auth/login/index.js(768-786)"
+            "src/api/auth/login/index.js(782-800)"
         ],
         "$id": 45
     },
@@ -202,7 +202,7 @@
         "en-US": "The server did not return valid account permissions.",
         "pt-PT": "O servidor não devolveu permissões válidas para a conta.",
         "$files": [
-            "src/api/auth/login/index.js(1405-1423)"
+            "src/api/auth/login/index.js(1435-1453)"
         ],
         "$id": 46
     },
@@ -210,7 +210,7 @@
         "en-US": "The sign-in response is missing user or session information.",
         "pt-PT": "A resposta de início de sessão não contém os dados do utilizador ou da sessão.",
         "$files": [
-            "src/api/auth/login/protocol.js(195-213)"
+            "src/api/auth/login/protocol.js(198-216)"
         ],
         "$id": 47
     },
@@ -218,7 +218,7 @@
         "en-US": "Configure the sign-in encryption settings to match the existing system.",
         "pt-PT": "Configure os parâmetros de cifragem do início de sessão de acordo com o sistema existente.",
         "$files": [
-            "src/api/auth/login/protocol.js(873-894)"
+            "src/api/auth/login/protocol.js(900-921)"
         ],
         "$id": 48
     },
@@ -226,7 +226,7 @@
         "en-US": "Sign-in requires HTTPS or a local development environment.",
         "pt-PT": "O início de sessão requer HTTPS ou um ambiente de desenvolvimento local.",
         "$files": [
-            "src/api/auth/login/protocol.js(951-974)"
+            "src/api/auth/login/protocol.js(980-1003)"
         ],
         "$id": 49
     },
@@ -234,7 +234,7 @@
         "en-US": "No recovery codes were received. Try again.",
         "pt-PT": "Não foram recebidos códigos de recuperação. Tente novamente.",
         "$files": [
-            "src/api/auth/login/totp.js(1305-1320)"
+            "src/api/auth/login/totp.js(1333-1348)"
         ],
         "$id": 50
     },
@@ -242,7 +242,7 @@
         "en-US": "Your account has no access to migrated pages.",
         "pt-PT": "A sua conta não tem acesso a páginas migradas.",
         "$files": [
-            "src/views/workspace/EntryView.vue(584-603)"
+            "src/views/workspace/EntryView.vue(599-618)"
         ],
         "$id": 61
     },
@@ -250,7 +250,7 @@
         "en-US": "Access denied",
         "pt-PT": "Acesso negado",
         "$files": [
-            "src/views/workspace/StatusView.vue(189-200)"
+            "src/views/workspace/StatusView.vue(196-207)"
         ],
         "$id": 62
     },
@@ -258,7 +258,7 @@
         "en-US": "Page unavailable",
         "pt-PT": "Página indisponível",
         "$files": [
-            "src/views/workspace/StatusView.vue(204-215)"
+            "src/views/workspace/StatusView.vue(211-222)"
         ],
         "$id": 63
     },
@@ -266,7 +266,7 @@
         "en-US": "Contact an administrator to request access to this page.",
         "pt-PT": "Contacte um administrador para pedir acesso a esta página.",
         "$files": [
-            "src/views/workspace/StatusView.vue(288-310)"
+            "src/views/workspace/StatusView.vue(296-318)"
         ],
         "$id": 64
     },
@@ -274,7 +274,7 @@
         "en-US": "Open an available page from the workspace.",
         "pt-PT": "Abra uma página disponível na área de trabalho.",
         "$files": [
-            "src/views/workspace/StatusView.vue(314-334)"
+            "src/views/workspace/StatusView.vue(322-342)"
         ],
         "$id": 65
     },
@@ -282,7 +282,7 @@
         "en-US": "Back to workspace",
         "pt-PT": "Voltar à área de trabalho",
         "$files": [
-            "src/views/workspace/StatusView.vue(394-403)"
+            "src/views/workspace/StatusView.vue(403-412)"
         ],
         "$id": 66
     },
@@ -290,7 +290,7 @@
         "en-US": "The request failed. Try again.",
         "pt-PT": "O pedido falhou. Tente novamente.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(1477-1490)"
+            "src/views/auth/login/LoginView.vue(1515-1528)"
         ],
         "$id": 39
     },
@@ -298,7 +298,7 @@
         "en-US": "Enter your account and password.",
         "pt-PT": "Introduza a conta e a palavra-passe.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(1665-1678)"
+            "src/views/auth/login/LoginView.vue(1711-1724)"
         ],
         "$id": 40
     },
@@ -306,7 +306,7 @@
         "en-US": "Enter your recovery code.",
         "pt-PT": "Introduza o código de recuperação.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(2321-2332)"
+            "src/views/auth/login/LoginView.vue(2387-2398)"
         ],
         "$id": 41
     },
@@ -314,7 +314,7 @@
         "en-US": "Enter the 6-digit verification code.",
         "pt-PT": "Introduza o código de verificação de 6 dígitos.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(2336-2351)"
+            "src/views/auth/login/LoginView.vue(2402-2417)"
         ],
         "$id": 42
     },
@@ -322,7 +322,7 @@
         "en-US": "Two-factor authentication is enabled. Sign in again.",
         "pt-PT": "A autenticação de dois fatores está ativa. Inicie sessão novamente.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(3577-3596)"
+            "src/views/auth/login/LoginView.vue(3690-3709)"
         ],
         "$id": 43
     },
@@ -330,8 +330,8 @@
         "en-US": "Two-factor authentication",
         "pt-PT": "Autenticação de dois fatores",
         "$files": [
-            "src/views/auth/login/LoginView.vue(3964-3973)",
-            "src/views/auth/login/LoginView.vue(4131-4140)"
+            "src/views/auth/login/LoginView.vue(4087-4096)",
+            "src/views/auth/login/LoginView.vue(4257-4266)"
         ],
         "$id": 20
     },
@@ -339,7 +339,7 @@
         "en-US": "Account sign-in",
         "pt-PT": "Início de sessão",
         "$files": [
-            "src/views/auth/login/LoginView.vue(3977-3985)"
+            "src/views/auth/login/LoginView.vue(4100-4108)"
         ],
         "$id": 17
     },
@@ -347,7 +347,7 @@
         "en-US": "Set up two-factor authentication",
         "pt-PT": "Configurar autenticação de dois fatores",
         "$files": [
-            "src/views/auth/login/LoginView.vue(4102-4113)"
+            "src/views/auth/login/LoginView.vue(4228-4239)"
         ],
         "$id": 19
     },
@@ -355,8 +355,8 @@
         "en-US": "Sign in",
         "pt-PT": "Iniciar sessão",
         "$files": [
-            "src/views/auth/login/LoginView.vue(4144-4150)",
-            "src/views/auth/login/LoginView.vue(6933-6939)"
+            "src/views/auth/login/LoginView.vue(4270-4276)",
+            "src/views/auth/login/LoginView.vue(7098-7104)"
         ],
         "$id": 18
     },
@@ -364,7 +364,7 @@
         "en-US": "Keep your recovery codes safe. Use a code if you lose access to your authenticator.",
         "pt-PT": "Guarde os códigos de recuperação num local seguro. Use um código se perder o acesso ao autenticador.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(4434-4466)"
+            "src/views/auth/login/LoginView.vue(4564-4596)"
         ],
         "$id": 21
     },
@@ -372,7 +372,7 @@
         "en-US": "Retry generating recovery codes",
         "pt-PT": "Tentar gerar os códigos de recuperação novamente",
         "$files": [
-            "src/views/auth/login/LoginView.vue(4744-4755)"
+            "src/views/auth/login/LoginView.vue(4878-4889)"
         ],
         "$id": 22
     },
@@ -380,7 +380,7 @@
         "en-US": "I saved my codes. Back to sign-in",
         "pt-PT": "Guardei os códigos. Voltar ao início de sessão",
         "$files": [
-            "src/views/auth/login/LoginView.vue(4892-4905)"
+            "src/views/auth/login/LoginView.vue(5028-5041)"
         ],
         "$id": 23
     },
@@ -388,7 +388,7 @@
         "en-US": "Add the account to your authenticator, then enter the code it generates.",
         "pt-PT": "Adicione a conta à aplicação autenticadora e introduza o código gerado.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5080-5105)"
+            "src/views/auth/login/LoginView.vue(5220-5245)"
         ],
         "$id": 24
     },
@@ -396,7 +396,7 @@
         "en-US": "Authenticator QR code",
         "pt-PT": "Código QR da aplicação autenticadora",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5281-5291)"
+            "src/views/auth/login/LoginView.vue(5423-5433)"
         ],
         "$id": 25
     },
@@ -404,7 +404,7 @@
         "en-US": "Reload setup details",
         "pt-PT": "Recarregar os dados de configuração",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5482-5494)"
+            "src/views/auth/login/LoginView.vue(5627-5639)"
         ],
         "$id": 26
     },
@@ -412,7 +412,7 @@
         "en-US": "Recovery code",
         "pt-PT": "Código de recuperação",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5588-5595)"
+            "src/views/auth/login/LoginView.vue(5735-5742)"
         ],
         "$id": 27
     },
@@ -420,7 +420,7 @@
         "en-US": "6-digit verification code",
         "pt-PT": "Código de verificação de 6 dígitos",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5599-5609)"
+            "src/views/auth/login/LoginView.vue(5746-5756)"
         ],
         "$id": 28
     },
@@ -428,7 +428,7 @@
         "en-US": "The demo verification code is 123456 and the recovery code is DEMO-2026.",
         "pt-PT": "O código de verificação de demonstração é 123456 e o código de recuperação é DEMO-2026.",
         "$files": [
-            "src/views/auth/login/LoginView.vue(5856-5889)"
+            "src/views/auth/login/LoginView.vue(6006-6039)"
         ],
         "$id": 29
     },
@@ -436,7 +436,7 @@
         "en-US": "Enable",
         "pt-PT": "Ativar",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6078-6086)"
+            "src/views/auth/login/LoginView.vue(6230-6238)"
         ],
         "$id": 30
     },
@@ -444,7 +444,7 @@
         "en-US": "Verify",
         "pt-PT": "Verificar",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6090-6096)"
+            "src/views/auth/login/LoginView.vue(6242-6248)"
         ],
         "$id": 31
     },
@@ -452,7 +452,7 @@
         "en-US": "Back to sign-in",
         "pt-PT": "Voltar ao início de sessão",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6217-6225)"
+            "src/views/auth/login/LoginView.vue(6371-6379)"
         ],
         "$id": 32
     },
@@ -460,7 +460,7 @@
         "en-US": "Use a verification code",
         "pt-PT": "Usar um código de verificação",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6365-6374)"
+            "src/views/auth/login/LoginView.vue(6521-6530)"
         ],
         "$id": 33
     },
@@ -468,7 +468,7 @@
         "en-US": "Use a recovery code",
         "pt-PT": "Usar um código de recuperação",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6378-6387)"
+            "src/views/auth/login/LoginView.vue(6534-6543)"
         ],
         "$id": 34
     },
@@ -476,7 +476,7 @@
         "en-US": "Account",
         "pt-PT": "Conta",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6533-6539)"
+            "src/views/auth/login/LoginView.vue(6694-6700)"
         ],
         "$id": 35
     },
@@ -484,7 +484,7 @@
         "en-US": "Password",
         "pt-PT": "Palavra-passe",
         "$files": [
-            "src/views/auth/login/LoginView.vue(6679-6685)"
+            "src/views/auth/login/LoginView.vue(6842-6848)"
         ],
         "$id": 36
     },
@@ -492,7 +492,7 @@
         "en-US": "Administrator",
         "pt-PT": "Administrador",
         "$files": [
-            "src/views/auth/login/LoginView.vue(7185-7192)"
+            "src/views/auth/login/LoginView.vue(7355-7362)"
         ],
         "$id": 37
     },
@@ -500,7 +500,7 @@
         "en-US": "Auditor",
         "pt-PT": "Auditor",
         "$files": [
-            "src/views/auth/login/LoginView.vue(7292-7299)"
+            "src/views/auth/login/LoginView.vue(7463-7470)"
         ],
         "$id": 38
     },
@@ -508,8 +508,8 @@
         "en-US": "Could not load the data. Try again.",
         "pt-PT": "Não foi possível carregar os dados. Tente novamente.",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(1792-1805)",
-            "src/views/system/logs/LogListView.vue(2020-2033)"
+            "src/views/instant/products/ProductListView.vue(1840-1853)",
+            "src/views/system/logs/LogListView.vue(2077-2090)"
         ],
         "$id": 13
     },
@@ -517,7 +517,7 @@
         "en-US": "Product management",
         "pt-PT": "Gestão de produtos",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(2801-2809)"
+            "src/views/instant/products/ProductListView.vue(2889-2897)"
         ],
         "$id": 93
     },
@@ -525,8 +525,8 @@
         "en-US": "Product code",
         "pt-PT": "Código do produto",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(2941-2949)",
-            "src/views/instant/products/ProductListView.vue(3813-3821)"
+            "src/views/instant/products/ProductListView.vue(3033-3041)",
+            "src/views/instant/products/ProductListView.vue(3922-3930)"
         ],
         "$id": 94
     },
@@ -534,7 +534,7 @@
         "en-US": "Enter a product code",
         "pt-PT": "Introduza o código do produto",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3014-3024)"
+            "src/views/instant/products/ProductListView.vue(3107-3117)"
         ],
         "$id": 95
     },
@@ -542,7 +542,7 @@
         "en-US": "Product status",
         "pt-PT": "Estado do produto",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3092-3100)"
+            "src/views/instant/products/ProductListView.vue(3188-3196)"
         ],
         "$id": 96
     },
@@ -550,7 +550,7 @@
         "en-US": "All statuses",
         "pt-PT": "Todos os estados",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3164-3172)"
+            "src/views/instant/products/ProductListView.vue(3261-3269)"
         ],
         "$id": 97
     },
@@ -558,8 +558,8 @@
         "en-US": "Active",
         "pt-PT": "Ativo",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3217-3223)",
-            "src/views/instant/products/ProductListView.vue(5144-5150)"
+            "src/views/instant/products/ProductListView.vue(3315-3321)",
+            "src/views/instant/products/ProductListView.vue(5273-5279)"
         ],
         "$id": 98
     },
@@ -567,8 +567,8 @@
         "en-US": "Inactive",
         "pt-PT": "Inativo",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3271-3277)",
-            "src/views/instant/products/ProductListView.vue(5154-5160)"
+            "src/views/instant/products/ProductListView.vue(3370-3376)",
+            "src/views/instant/products/ProductListView.vue(5283-5289)"
         ],
         "$id": 99
     },
@@ -576,8 +576,8 @@
         "en-US": "Search",
         "pt-PT": "Pesquisar",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3450-3456)",
-            "src/views/system/logs/LogListView.vue(4326-4332)"
+            "src/views/instant/products/ProductListView.vue(3553-3559)",
+            "src/views/system/logs/LogListView.vue(4485-4491)"
         ],
         "$id": 5
     },
@@ -585,8 +585,8 @@
         "en-US": "Reset",
         "pt-PT": "Repor",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3512-3518)",
-            "src/views/system/logs/LogListView.vue(4388-4394)"
+            "src/views/instant/products/ProductListView.vue(3616-3622)",
+            "src/views/system/logs/LogListView.vue(4548-4554)"
         ],
         "$id": 6
     },
@@ -594,8 +594,8 @@
         "en-US": "Retry",
         "pt-PT": "Tentar novamente",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3667-3673)",
-            "src/views/system/logs/LogListView.vue(4543-4549)"
+            "src/views/instant/products/ProductListView.vue(3774-3780)",
+            "src/views/system/logs/LogListView.vue(4706-4712)"
         ],
         "$id": 7
     },
@@ -603,7 +603,7 @@
         "en-US": "No matching products",
         "pt-PT": "Não existem produtos correspondentes",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3756-3769)"
+            "src/views/instant/products/ProductListView.vue(3864-3877)"
         ],
         "$id": 100
     },
@@ -611,7 +611,7 @@
         "en-US": "Product name",
         "pt-PT": "Nome do produto",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3892-3900)"
+            "src/views/instant/products/ProductListView.vue(4002-4010)"
         ],
         "$id": 101
     },
@@ -619,7 +619,7 @@
         "en-US": "Ticket price",
         "pt-PT": "Preço do bilhete",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(3971-3977)"
+            "src/views/instant/products/ProductListView.vue(4082-4088)"
         ],
         "$id": 102
     },
@@ -627,7 +627,7 @@
         "en-US": "Loaded",
         "pt-PT": "Carregados",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(4162-4169)"
+            "src/views/instant/products/ProductListView.vue(4276-4283)"
         ],
         "$id": 103
     },
@@ -635,7 +635,7 @@
         "en-US": "Activated",
         "pt-PT": "Ativados",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(4351-4358)"
+            "src/views/instant/products/ProductListView.vue(4468-4475)"
         ],
         "$id": 104
     },
@@ -643,7 +643,7 @@
         "en-US": "Not activated",
         "pt-PT": "Por ativar",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(4539-4546)"
+            "src/views/instant/products/ProductListView.vue(4659-4666)"
         ],
         "$id": 105
     },
@@ -651,7 +651,7 @@
         "en-US": "Amount",
         "pt-PT": "Montante",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(4730-4736)"
+            "src/views/instant/products/ProductListView.vue(4853-4859)"
         ],
         "$id": 106
     },
@@ -659,9 +659,9 @@
         "en-US": "Status",
         "pt-PT": "Estado",
         "$files": [
-            "src/views/instant/products/ProductListView.vue(4929-4935)",
-            "src/views/system/logs/LogListView.vue(5133-5139)",
-            "src/views/system/logs/LogListView.vue(6204-6210)"
+            "src/views/instant/products/ProductListView.vue(5055-5061)",
+            "src/views/system/logs/LogListView.vue(5304-5310)",
+            "src/views/system/logs/LogListView.vue(6393-6399)"
         ],
         "$id": 8
     },
@@ -669,18 +669,26 @@
         "en-US": "Operation logs",
         "pt-PT": "Registos de operações",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3490-3498)"
+            "src/views/system/logs/LogListView.vue(3608-3616)"
         ],
         "$id": 70
+    },
+    "测试脚本": {
+        "en-US": "Test Script",
+        "pt-PT": "Script de teste",
+        "$files": [
+            "src/views/system/logs/LogListView.vue(3670-3678)"
+        ],
+        "$id": 242
     },
     "操作时间": {
         "en-US": "Operation time",
         "pt-PT": "Hora da operação",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3650-3658)",
-            "src/views/system/logs/LogListView.vue(3885-3893)",
-            "src/views/system/logs/LogListView.vue(4813-4821)",
-            "src/views/system/logs/LogListView.vue(6099-6107)"
+            "src/views/system/logs/LogListView.vue(3795-3803)",
+            "src/views/system/logs/LogListView.vue(4033-4041)",
+            "src/views/system/logs/LogListView.vue(4979-4987)",
+            "src/views/system/logs/LogListView.vue(6287-6295)"
         ],
         "$id": 71
     },
@@ -688,7 +696,7 @@
         "en-US": "to",
         "pt-PT": "até",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3751-3756)"
+            "src/views/system/logs/LogListView.vue(3897-3902)"
         ],
         "$id": 72
     },
@@ -696,7 +704,7 @@
         "en-US": "Start time",
         "pt-PT": "Hora de início",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3791-3799)"
+            "src/views/system/logs/LogListView.vue(3938-3946)"
         ],
         "$id": 73
     },
@@ -704,7 +712,7 @@
         "en-US": "End time",
         "pt-PT": "Hora de fim",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3820-3828)"
+            "src/views/system/logs/LogListView.vue(3967-3975)"
         ],
         "$id": 74
     },
@@ -712,9 +720,9 @@
         "en-US": "User",
         "pt-PT": "Utilizador",
         "$files": [
-            "src/views/system/logs/LogListView.vue(3951-3957)",
-            "src/views/system/logs/LogListView.vue(4981-4987)",
-            "src/views/system/logs/LogListView.vue(6330-6336)"
+            "src/views/system/logs/LogListView.vue(4102-4108)",
+            "src/views/system/logs/LogListView.vue(5150-5156)",
+            "src/views/system/logs/LogListView.vue(6520-6526)"
         ],
         "$id": 75
     },
@@ -722,7 +730,7 @@
         "en-US": "Enter a username",
         "pt-PT": "Introduza o nome de utilizador",
         "$files": [
-            "src/views/system/logs/LogListView.vue(4018-4027)"
+            "src/views/system/logs/LogListView.vue(4170-4179)"
         ],
         "$id": 76
     },
@@ -730,9 +738,9 @@
         "en-US": "Module",
         "pt-PT": "Módulo",
         "$files": [
-            "src/views/system/logs/LogListView.vue(4095-4101)",
-            "src/views/system/logs/LogListView.vue(5058-5064)",
-            "src/views/system/logs/LogListView.vue(6626-6632)"
+            "src/views/system/logs/LogListView.vue(4250-4256)",
+            "src/views/system/logs/LogListView.vue(5228-5234)",
+            "src/views/system/logs/LogListView.vue(6819-6825)"
         ],
         "$id": 77
     },
@@ -740,7 +748,7 @@
         "en-US": "Enter a module name",
         "pt-PT": "Introduza o nome do módulo",
         "$files": [
-            "src/views/system/logs/LogListView.vue(4168-4177)"
+            "src/views/system/logs/LogListView.vue(4324-4333)"
         ],
         "$id": 78
     },
@@ -748,7 +756,7 @@
         "en-US": "No matching logs",
         "pt-PT": "Não existem registos correspondentes",
         "$files": [
-            "src/views/system/logs/LogListView.vue(4632-4645)"
+            "src/views/system/logs/LogListView.vue(4796-4809)"
         ],
         "$id": 79
     },
@@ -756,7 +764,7 @@
         "en-US": "No.",
         "pt-PT": "N.º",
         "$files": [
-            "src/views/system/logs/LogListView.vue(4689-4695)"
+            "src/views/system/logs/LogListView.vue(4854-4860)"
         ],
         "$id": 80
     },
@@ -764,8 +772,8 @@
         "en-US": "Success",
         "pt-PT": "Sucesso",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5335-5341)",
-            "src/views/system/logs/LogListView.vue(6248-6254)"
+            "src/views/system/logs/LogListView.vue(5509-5515)",
+            "src/views/system/logs/LogListView.vue(6437-6443)"
         ],
         "$id": 81
     },
@@ -773,8 +781,8 @@
         "en-US": "Failed",
         "pt-PT": "Falhou",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5345-5351)",
-            "src/views/system/logs/LogListView.vue(6258-6264)"
+            "src/views/system/logs/LogListView.vue(5519-5525)",
+            "src/views/system/logs/LogListView.vue(6447-6453)"
         ],
         "$id": 82
     },
@@ -782,8 +790,8 @@
         "en-US": "IP address",
         "pt-PT": "Endereço IP",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5460-5469)",
-            "src/views/system/logs/LogListView.vue(6429-6438)"
+            "src/views/system/logs/LogListView.vue(5638-5647)",
+            "src/views/system/logs/LogListView.vue(6620-6629)"
         ],
         "$id": 83
     },
@@ -791,7 +799,7 @@
         "en-US": "Actions",
         "pt-PT": "Ações",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5534-5540)"
+            "src/views/system/logs/LogListView.vue(5713-5719)"
         ],
         "$id": 84
     },
@@ -799,7 +807,7 @@
         "en-US": "Details",
         "pt-PT": "Detalhes",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5653-5659)"
+            "src/views/system/logs/LogListView.vue(5833-5839)"
         ],
         "$id": 9
     },
@@ -807,7 +815,7 @@
         "en-US": "Operation log details",
         "pt-PT": "Detalhes do registo de operação",
         "$files": [
-            "src/views/system/logs/LogListView.vue(5948-5958)"
+            "src/views/system/logs/LogListView.vue(6134-6144)"
         ],
         "$id": 85
     },
@@ -815,7 +823,7 @@
         "en-US": "Service",
         "pt-PT": "Serviço",
         "$files": [
-            "src/views/system/logs/LogListView.vue(6525-6531)"
+            "src/views/system/logs/LogListView.vue(6717-6723)"
         ],
         "$id": 86
     },
@@ -823,7 +831,7 @@
         "en-US": "Method",
         "pt-PT": "Método",
         "$files": [
-            "src/views/system/logs/LogListView.vue(6723-6729)"
+            "src/views/system/logs/LogListView.vue(6917-6923)"
         ],
         "$id": 87
     },
@@ -831,7 +839,7 @@
         "en-US": "Duration",
         "pt-PT": "Duração",
         "$files": [
-            "src/views/system/logs/LogListView.vue(6820-6826)"
+            "src/views/system/logs/LogListView.vue(7015-7021)"
         ],
         "$id": 88
     },
@@ -839,7 +847,7 @@
         "en-US": "Request",
         "pt-PT": "Pedido",
         "$files": [
-            "src/views/system/logs/LogListView.vue(6957-6963)"
+            "src/views/system/logs/LogListView.vue(7153-7159)"
         ],
         "$id": 89
     },
@@ -847,7 +855,7 @@
         "en-US": "Request parameters",
         "pt-PT": "Parâmetros do pedido",
         "$files": [
-            "src/views/system/logs/LogListView.vue(7120-7128)"
+            "src/views/system/logs/LogListView.vue(7318-7326)"
         ],
         "$id": 90
     },
@@ -855,24 +863,24 @@
         "en-US": "Response data",
         "pt-PT": "Dados da resposta",
         "$files": [
-            "src/views/system/logs/LogListView.vue(7238-7246)"
+            "src/views/system/logs/LogListView.vue(7438-7446)"
         ],
         "$id": 91
-    },
-    "系统管理": {
-        "en-US": "System management",
-        "pt-PT": "Gestão do sistema",
-        "$files": [
-            "src/router/routes/system/logs/index.js(281-289)"
-        ],
-        "$id": 69
     },
     "即开管理": {
         "en-US": "Instant game management",
         "pt-PT": "Gestão de jogos instantâneos",
         "$files": [
-            "src/router/routes/instant/products/index.js(304-312)"
+            "src/router/routes/instant/products/index.js(308-316)"
         ],
         "$id": 92
+    },
+    "系统管理": {
+        "en-US": "System management",
+        "pt-PT": "Gestão do sistema",
+        "$files": [
+            "src/router/routes/system/logs/index.js(286-294)"
+        ],
+        "$id": 69
     }
 }
