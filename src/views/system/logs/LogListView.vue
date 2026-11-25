@@ -120,6 +120,7 @@ onMounted(search)
     <div class="panel">
       {{ t("测试国际化") }}
       {{ t("测试脚本") }}
+      {{ t("你好，世界！") }}
       <form class="filters" @submit.prevent="search">
         <label class="range-field">
           <span>{{ t('操作时间') }}</span>

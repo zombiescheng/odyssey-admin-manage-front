@@ -105,5 +105,7 @@ export default  {
     "104": "Ativados",
     "105": "Por ativar",
     "106": "Montante",
-    "242": "Testar a internacionalização"
+    "242": "Testar a internacionalização",
+    "246": "Script de teste",
+    "247": "Olá，mundo！"
 }
